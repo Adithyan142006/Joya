@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Joya</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #FFF5F3;
+            color: #333;
+            line-height: 1.4;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .apology-container {
+            background-color: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0.5rem 1rem 3rem hsl(0,0%,0%,0.1);
+            margin-top: 15px;
+            
+        }
+        
+        h1 {
+            color: #FF6B88;
+            margin-bottom: 20px;
+        }
+        
+        .apology-text {
+            font-size: 1.1em;
+            margin-bottom: 1.5em;
+            position: relative;
+            text-align:center;
+        }
+        
+        .highlight {
+            color: #FF6B88;
+            font-weight: bold;
+        }
+        
+        .hearts {
+            font-size: 1.5em;
+            color: #FF6B88;
+            margin: 15px 0;
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.3); }
+            100% { transform: scale(1); }
+        }
+        
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: black;
+            background-color: #FAD0C4;
+            padding: 10px 25px;
+            border-radius: 8px;
+            box-shadow: 0.5rem 1rem 3rem hsl(0,0%,0%,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            transform: translateY(-3px);
+        }
+        
+        .broken-heart {
+            font-size: 2em;
+            display: inline-block;
+            animation: broken 2s infinite;
+            transform-origin: center;
+        }
+        
+        @keyframes broken {
+            0% { transform: rotate(0deg); }
+            20% { transform: rotate(-15deg); }
+            40% { transform: rotate(10deg); }
+            60% { transform: rotate(-10deg); }
+            80% { transform: rotate(5deg); }
+            100% { transform: rotate(0deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="apology-container">
+            
+            <h1>I Owe You An Apology</h1>
+        </br>
+            <div class="apology-text">
+                <p><span >I'm soo sorry!</span> Naa antha hair vechi heart thing panni idhula attach pannalam nu try pannen, but my hair isn't built for that.</p>
+                
+                <p>I have been growing it for the past 2 months now, but still they keep falling down. Maybe edhachu hairspray vechi panni, I'll gift you on your 20th birthday.</p>
+                
+                <p class="highlight">Sorry joayyy😭🙏</p>
+            </div>
+            
+            
+            
+            <div>
+                <img src="assets/yes.gif" alt="Cute GIF" style="max-width: 200px; width: 100%; height: auto; border-radius: 10px; margin: 10px 0;">
+            </div>
+            
+            <div style="text-align: center;">
+                <a href="gift.html" class="back-btn">Back to Poem</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
